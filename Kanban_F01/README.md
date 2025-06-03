@@ -15,18 +15,16 @@ Este projeto é uma aplicação de gerenciamento de tarefas no estilo **Kanban**
 ## 📂 Estrutura do Projeto
 
 ```
-PROJETO_KANBAN
-│
 ├── Kanban_F01
 │   ├── node_modules/
 │   ├── src/
 │   │   └── app.js
+│   ├── .gitignore
 │   ├── server.js
 │   ├── package-lock.json
 │   ├── package.json
 │   └── README.md
-│
-└── README.md
+
 ````
 
 ---
@@ -36,7 +34,7 @@ PROJETO_KANBAN
 ### 1️⃣ Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/KANBAN.V1.git
+git clone https://github.com/Fernandamaralss/Projeto_Kanban.git
 cd KANBAN.V1
 ```
 
