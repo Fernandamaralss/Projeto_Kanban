@@ -1,4 +1,4 @@
-````markdown
+```markdown
 # Kanban 01 – Backend com Express
 
 Este projeto é uma aplicação de gerenciamento de tarefas no estilo **Kanban**, desenvolvida com **Node.js** e **Express**, utilizando armazenamento em memória. Ideal para fins didáticos e projetos iniciais de backend.
@@ -15,7 +15,7 @@ Este projeto é uma aplicação de gerenciamento de tarefas no estilo **Kanban**
 
 ## 📂 Estrutura do Projeto
 
-```bash
+```
 PROJETO_KANBAN
 │
 ├── Kanban_F01
