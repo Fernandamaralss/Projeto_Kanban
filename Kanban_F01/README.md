@@ -35,7 +35,7 @@ Este projeto é uma aplicação de gerenciamento de tarefas no estilo **Kanban**
 
 ```bash
 git clone https://github.com/Fernandamaralss/Projeto_Kanban.git
-cd KANBAN.V1
+cd Kanban_F01
 ```
 
 ### 2️⃣ Instale as dependências
