@@ -1,5 +1,5 @@
 ````markdown
-# Kanban 01 - Backend com Express
+# Kanban 01 – Backend com Express
 
 Este projeto é uma aplicação de gerenciamento de tarefas no estilo **Kanban**, desenvolvida com **Node.js** e **Express**, utilizando armazenamento em memória. Ideal para fins didáticos e projetos iniciais de backend.
 
@@ -7,9 +7,9 @@ Este projeto é uma aplicação de gerenciamento de tarefas no estilo **Kanban**
 
 ## ⚙️ Requisitos
 
-- Node.js (versão 14 ou superior)
-- NPM (gerenciador de pacotes)
-- Postman ou outra ferramenta para testes de API
+- Node.js (versão 14 ou superior)  
+- NPM (gerenciador de pacotes)  
+- Postman (ou outra ferramenta para testes de API)
 
 ---
 
@@ -69,22 +69,23 @@ O servidor estará disponível em:
 
 ## 🔗 Rotas Disponíveis
 
-### `GET - http://localhost:3000/`
+### `GET http://localhost:3000/`
 
 * Retorna mensagem de boas-vindas da API
 
-### `GET - http://localhost:3000/tarefas`
+### `GET http://localhost:3000/tarefas`
 
 * Retorna todas as tarefas cadastradas
 
-### `GET - http://localhost:3000/tarefas/:id`
+### `GET http://localhost:3000/tarefas/:id`
 
 * Retorna uma tarefa específica
 
-### `POST - http://localhost:3000/tarefas`
+### `POST http://localhost:3000/tarefas`
 
 * Cria uma nova tarefa
-* Exemplo de body:
+
+Exemplo de corpo (JSON):
 
 ```json
 {
@@ -96,11 +97,11 @@ O servidor estará disponível em:
 }
 ```
 
-### `PUT - http://localhost:3000/tarefas/:id`
+### `PUT http://localhost:3000/tarefas/:id`
 
 * Atualiza uma tarefa existente
 
-### `DELETE - http://localhost:3000/tarefas/:id`
+### `DELETE http://localhost:3000/tarefas/:id`
 
 * Remove uma tarefa pelo ID
 
@@ -110,9 +111,9 @@ O servidor estará disponível em:
 
 1. Abra o Postman
 2. Configure a URL: `http://localhost:3000/tarefas`
-3. Selecione o método desejado: `GET`, `POST`, `PUT`, `DELETE`
-4. Para `POST` e `PUT`, utilize: **Body > raw > JSON**
-5. Use o JSON de exemplo fornecido acima.
+3. Selecione o método desejado: `GET`, `POST`, `PUT` ou `DELETE`
+4. Para `POST` e `PUT`, vá em **Body > raw > JSON**
+5. Utilize o JSON de exemplo fornecido acima
 
 ---
 
@@ -124,5 +125,3 @@ O servidor estará disponível em:
 ---
 
 Desenvolvido por **Fernanda Amaral Santos** 👩‍💻
-
-```
